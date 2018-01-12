@@ -1,5 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <chrono>
+
+/// Minimal SFML application that shows a circle for three seconds
 int main()
 {
   const auto start_time = std::chrono::system_clock::now();
