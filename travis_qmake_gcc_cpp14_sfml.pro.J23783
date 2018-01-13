@@ -37,8 +37,10 @@ CONFIG(release, debug|release) {
   QMAKE_LFLAGS += -pg
 }
 
-CONFIG(sfml) {
+contains($$_FILE_, sfml) {
 
+  message(sfml here)
   # SFML
   LIBS += -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 }
+
