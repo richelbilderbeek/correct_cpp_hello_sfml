@@ -4,9 +4,9 @@ SOURCES += main.cpp
 # High warning levels
 QMAKE_CXXFLAGS += -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Weffc++ -Werror
 
-# C++14
-CONFIG += c++14
-QMAKE_CXXFLAGS += -std=c++14
+# C++11
+CONFIG += c++11
+QMAKE_CXXFLAGS += -std=c++11
 
 # Allow debug and release mode
 CONFIG += debug_and_release
