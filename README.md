@@ -9,6 +9,7 @@ master|[![Build Status](https://travis-ci.org/richelbilderbeek/correct_cpp_hello
 ## Goal
 
  * Write a minimal SFML application
+ * ?
 
 ## Prerequisites
 
